@@ -21,7 +21,7 @@ class PreviewTransitionViewController: UIViewController {
         self.addChild(quickLookPreviewController)
         containerView.addSubview(quickLookPreviewController.view)
         quickLookPreviewController.view.frame = containerView.bounds
-        quickLookPreviewController.didMove(toParentViewController: self)
+        quickLookPreviewController.didMove(toParent: self)
     }
 
 }
